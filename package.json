@@ -1,0 +1,25 @@
+{
+  "name": "qna",
+  "version": "0.0.1",
+  "description": "Questions and Answers platform",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/.bin/covert test/*.js | node_modules/.bin/faucet"
+  },
+  "author": "V. David Zvenyach (vladlen.zvenyach@gsa.gov)",
+  "license": "CC0",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "covert": "^1.1.0",
+    "faucet": "0.0.1",
+    "istanbul": "^0.3.17",
+    "supertest": "^1.0.1",
+    "tape": "^4.0.3"
+  }
+}
