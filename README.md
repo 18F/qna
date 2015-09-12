@@ -1,3 +1,5 @@
 # qna
 
-A question and answer tool, for use in acquisitions
+A question and answer tool, for use in acquisitions.
+
+
